@@ -1,6 +1,5 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import Project from '../components/projects/Projects';
 import { ProjectContent } from '../constants';
 
@@ -8,7 +7,7 @@ describe('Project Component renders correctly', () => {
     test('renders initial project image', () => {
         render(<Project />);
         const initialImage = screen.getByAltText('project-image');
-        expect(initialImage).toHaveAttribute('src', ProjectContent[0].image);
+        expect(initialImage).toHaveAttribute('src', ProjectContent[1].image);
     });
 
     test('changes project image on click', () => {

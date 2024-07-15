@@ -1,5 +1,4 @@
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import HeroSection from '../components/heroSection/HeroSection';
 import { HeroImage } from '../assets';
 
