@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/fyle/static/css/main.66832e57.css",
+    "main.js": "/fyle/static/js/main.b7358b37.js",
+    "static/js/453.4ff6be7c.chunk.js": "/fyle/static/js/453.4ff6be7c.chunk.js",
+    "static/media/image_1.png": "/fyle/static/media/image_1.97a89700e50cd1065041.png",
+    "static/media/hero.png": "/fyle/static/media/hero.414e5ec43fd4a0e6bf96.png",
+    "static/media/3.png": "/fyle/static/media/3.82316318fdaa440340e7.png",
+    "static/media/AktivGroteskCorp-Regular.ttf": "/fyle/static/media/AktivGroteskCorp-Regular.87c3309309d6061b7de4.ttf",
+    "static/media/AktivGroteskCorp-Bold.ttf": "/fyle/static/media/AktivGroteskCorp-Bold.2fdd8f4b706ff5c96757.ttf",
+    "static/media/2.png": "/fyle/static/media/2.fd5859ed8789dece97cf.png",
+    "static/media/1.png": "/fyle/static/media/1.d48a57447f307b4454b0.png",
+    "static/media/footer_img.png": "/fyle/static/media/footer_img.b4ed8924ad10015d794d.png",
+    "static/media/revicons.eot": "/fyle/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/fyle/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/fyle/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/icon_4.svg": "/fyle/static/media/icon_4.5a5896a599f4a6351162714478d2fdba.svg",
+    "static/media/icon_3.svg": "/fyle/static/media/icon_3.5ebc4e086f90b74dd71a58a35dc5bd8b.svg",
+    "static/media/icon_2.svg": "/fyle/static/media/icon_2.8f5ba948c2220ce06b9fccff5202e39e.svg",
+    "static/media/development_icon.svg": "/fyle/static/media/development_icon.ce2a24c3e0264767975b36bfd22dd175.svg",
+    "static/media/Quotemarks-left.svg": "/fyle/static/media/Quotemarks-left.1dfc2dc752c9ca9d68b41f2671085998.svg",
+    "static/media/icon_5.svg": "/fyle/static/media/icon_5.c77878b93b5382528c942954d392589d.svg",
+    "static/media/Path_4406.svg": "/fyle/static/media/Path_4406.684bb06c282828ab8ed96016d78c001e.svg",
+    "index.html": "/fyle/index.html",
+    "static/media/carousel_btn1.svg": "/fyle/static/media/carousel_btn1.c15fc2b2c2b8541048a16ad93512a733.svg",
+    "static/media/clock_3.svg": "/fyle/static/media/clock_3.6a40be01235feba7385ae404a1147e0e.svg",
+    "static/media/heart_2.svg": "/fyle/static/media/heart_2.b4f830afbe8830b90b3e1b5ac5defe9d.svg",
+    "static/media/Path_4402.svg": "/fyle/static/media/Path_4402.97b991815dabd433bc8ce0e0abcbf49b.svg",
+    "static/media/arrow.svg": "/fyle/static/media/arrow.e5e6a309049643a7cfb7ece845d930c6.svg",
+    "static/media/carousel_btn2.svg": "/fyle/static/media/carousel_btn2.deae7025ad802cbbf2106e2009b3a7a8.svg",
+    "main.66832e57.css.map": "/fyle/static/css/main.66832e57.css.map",
+    "main.b7358b37.js.map": "/fyle/static/js/main.b7358b37.js.map",
+    "453.4ff6be7c.chunk.js.map": "/fyle/static/js/453.4ff6be7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66832e57.css",
+    "static/js/main.b7358b37.js"
+  ]
+}
