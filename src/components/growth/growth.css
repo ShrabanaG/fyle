@@ -1,0 +1,38 @@
+.growth-container {
+  background: #fafafa;
+  padding: 2rem 3rem;
+}
+
+.growth-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.growth-content-item-card {
+  width: 270px;
+  height: 230px;
+  background: #ffffff;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.growth-content-item-card:hover {
+  box-shadow: 3px 6px 20px #672c2c1f;
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+.growth-content-item-card .growth-content-item-stat {
+  font-size: 60px;
+}
+
+.growth-content-item-card .growth-content-item-title {
+  font-size: 20px;
+}

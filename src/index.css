@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.padding {
+  padding: 2rem calc((100vw - 1350px) / 2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-header {
+  font-family: "Cormorant SC", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #ff3147;
+}
+
+.hero-sub-header {
+  font-family: "Cormorant SC", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.section-header {
+  font-family: "Cormorant SC", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff3147;
+  margin: 2rem;
+}
+
+.section-sub-header {
+  font-family: "Cormorant SC", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.section-sub-header-1,
+.hero-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 30px;
+}
+
+.hero-para {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .padding {
+    padding: 0.5rem calc((100vw - 1350px) / 2);
+  }
 }

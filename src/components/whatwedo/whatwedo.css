@@ -1,0 +1,76 @@
+.what-we-do-container {
+  background-color: #fafafa;
+  padding-bottom: 8rem;
+}
+
+.what-we-do-header {
+  text-align: left;
+}
+
+.what-we-do-sub-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  text-align: left;
+}
+
+.what-we-do-carousel-items {
+  position: relative;
+  cursor: pointer;
+}
+
+.what-we-do-carousel-items .item-overlay {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  right: 20px;
+  bottom: 0;
+  background: #ff3147;
+  color: #ffffff;
+  display: none;
+  width: 370px;
+  height: 500px;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.what-we-do-carousel-items .item-overlay .overlay-header {
+  font-family: "Cormorant SC", sans-serif;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.what-we-do-carousel-items .item-overlay .overlay-sub-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.what-we-do-carousel-items .item-overlay .overlay-btn {
+  background: #f4f4f4;
+  border-radius: 2px;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.what-we-do-carousel-items .item-overlay .overlay-btn .btn-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: #ff3147;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.what-we-do-carousel-items:hover .item-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "aktivgrotesk";
+  src: url("../../fonts/AktivGroteskCorp-Bold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "aktivgrotesk-light";
+  src: url("../../fonts/AktivGroteskCorp-Regular.ttf");
+  font-weight: 400;
+}
+
+.dialogue-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.dialogue-header {
+  font-family: "aktivgrotesk";
+  text-align: left;
+  color: #2d3142;
+  font-size: 1.2rem;
+}
+
+.dialogue-action-btn button {
+  font-family: "aktivgrotesk-light";
+  background-color: #ff3366;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 385px;
+  height: 52px;
+}
+
+.dialogue-content {
+  position: relative;
+}
+
+.dialogue-content input {
+  font-family: "aktivgrotesk-light";
+  outline: none;
+  border: none;
+  border-bottom: 1px #6f718f99 solid;
+}
+
+.dialogue-content label {
+  font-family: "aktivgrotesk-light";
+}
+
+.dialogue-content .dialogue-content-email {
+  margin-top: 5px;
+}
+
+.dialogue-content .dialogue-content-email input {
+  height: 27px;
+  width: 385px;
+  padding: 0.3rem;
+}
+
+.dialogue-content .dialogue-content-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.dialogue-content .dialogue-content-name input {
+  width: 178px;
+  height: 27px;
+  padding: 0.3rem;
+}
+
+.dialogue-content-email,
+.dialogue-content-first-name,
+.dialogue-content-last-name {
+  position: relative;
+}
+
+.dialogue-content-email label,
+.dialogue-content-first-name label,
+.dialogue-content-last-name label {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: #6f718f;
+  left: 5px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.dialogue-content-email input:focus-within + .email-label,
+.dialogue-content-first-name input:focus-within + .name-label,
+.dialogue-content-last-name input:focus-within + .last-name-label,
+.dialogue-content-email input:valid + .email-label,
+.dialogue-content-first-name input:valid + .name-label,
+.dialogue-content-last-name input:valid + .last-name-label {
+  bottom: 20px;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.dialogue-checkbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dialogue-checkbox label {
+  color: #616678;
+  font-size: 0.8rem;
+  font-family: "aktivgrotesk-light";
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.dialogue-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}

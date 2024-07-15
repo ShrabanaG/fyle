@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.why-choose-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-choose-us-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-choose-us-content-item {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+}
+
+.why-choose-us-content-item-title {
+  font-size: 18px;
+  color: #000000;
+}
+
+.why-choose-us-content-item-description {
+  font-size: 0.9rem;
+  line-height: 26px;
+}

@@ -1,0 +1,36 @@
+.projects .projects-content .project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.project .project-image {
+  margin-right: 2rem;
+}
+
+.projects .projects-content .project .project-content {
+  width: 300px;
+  height: 125px;
+  padding: 2rem;
+  text-align: left;
+  background-color: #f6f6f6;
+  color: #000000;
+}
+
+.projects .projects-content .project .selected {
+  background-color: #ff3147;
+  color: #ffffff;
+}
+
+.project-content .project-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.project-content .project-description {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
